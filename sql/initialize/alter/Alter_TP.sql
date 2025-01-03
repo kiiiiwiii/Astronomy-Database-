@@ -1,0 +1,1 @@
+ALTER TABLE Terrestrial_planet ADD FOREIGN KEY (tp_name) REFERENCES Planetary_body(pb_name) ON DELETE CASCADE;

@@ -1,0 +1,1 @@
+ALTER TABLE Star4 ADD FOREIGN KEY (s_surface_temperature) REFERENCES Star2(s_surface_temperature);

@@ -1,0 +1,1 @@
+ALTER TABLE Nebula ADD FOREIGN KEY (n_galaxy_name) REFERENCES Galaxy(galaxy_name);

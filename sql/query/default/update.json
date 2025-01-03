@@ -1,0 +1,30 @@
+{
+    "id": "update",
+    "tab": "Moon",
+    "name": "Update Moon",
+    "description": "Update tuples in Moon table.",
+    "redirect": "updateMoon",
+    "updateTable": "Moon",
+    "parameters": {
+        "planetary_body_name": {
+            "type": "string",
+            "display": "Input planetary body name (required)"
+        },
+        "moon_name": {
+            "type": "string",
+            "display": "Input moon name (required)"
+        },
+        "m_surface_temperature": {
+            "type": "string",
+            "display": "Change moon surface temperature to"
+        },
+        "mass": {
+            "type": "string",
+            "display": "Change moon mass to"
+        },
+        "diameter": {
+            "type": "string",
+            "display": "Change moon diameter to"
+        }
+    }
+}

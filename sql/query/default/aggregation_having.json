@@ -1,0 +1,41 @@
+{
+    "id": "aggregation_having",
+    "tab": "Nebula",
+    "name": "Nebula Type Luminosity Information",
+    "description": "Aggregates based on groups that has a user-specified condition for aggregated luminosities..<br>This query satisfies the <strong>2.1.8 aggregation with having</strong> requirement.",
+    "parameters": {
+      "aggregation": {
+        "type": "string",
+        "display": "Aggregation",
+        "values": ["min", "max", "avg", "sum", "count"],
+        "meta": true
+      },
+      "conditions": {
+        "type": "set",
+        "display": "Having Conditions for Aggregated Luminosity",
+        "componentName": "Condition",
+        "generate": {
+          "set_conditions": {
+            "element": ":c_col(n.N_LUMINOSITY) :c_cond ':c_val'",
+            "join": " AND "
+          }
+        },
+        "componentParameters": {
+          "c_col": {
+            "type": "string",
+            "display": "Aggregation",
+            "values": ["min", "max", "avg", "sum", "count"]
+          },
+          "c_cond": {
+            "type": "string",
+            "display": "Condition",
+            "values": [">", "<", "=", "!="]
+          },
+          "c_val": {
+            "type": "string",
+            "display": "Value"
+          }
+        }
+      }
+    }
+}

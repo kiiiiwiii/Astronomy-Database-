@@ -1,0 +1,30 @@
+{
+    "id": "projection",
+    "tab": "Galaxy",
+    "name": "Galaxy Age Within",
+    "description": "Display selected columns in Galaxy whose age is within 5 billion years of given value.<br>This query satisfies the <strong>2.1.5 projection</strong> requirement.",
+    "parameters": {
+      "age": {
+        "type": "number",
+        "display": "Billion Years"
+      },
+      "columns": {
+        "type": "set",
+        "display": "Columns To Project",
+        "componentName": "Column",
+        "generate": {
+          "set_columns": {
+            "element": "g.:name",
+            "join": ", "
+          }
+        },
+        "componentParameters": {
+          "name": {
+            "type": "string",
+            "display": "Column Name",
+            "values": ["Galaxy_Name", "Age", "Hubble_Classification"]
+          }
+        }
+      }
+    }
+  }

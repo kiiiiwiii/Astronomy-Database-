@@ -1,0 +1,45 @@
+{
+  "id": "selection",
+  "tab": "Star",
+  "name": "Custom Star Selection",
+  "description": "Gets star information given the inputted conditions. The relevant columns are projected.<br>This query satisfies the <strong>2.1.4 selection</strong> requirement.",
+  "parameters": {
+    "conditions": {
+      "type": "set",
+      "display": "Conditions",
+      "componentName": "Condition",
+      "generate": {
+        "set_conditions": {
+          "element": "s.:c_col :c_cond ':c_val' :c_join ",
+          "join": ""
+        },
+        "set_columns": {
+          "element": "s.:c_col",
+          "join": ", "
+        }
+      },
+      "componentParameters": {
+        "c_col": {
+          "type": "string",
+          "display": "Column Name",
+          "values": ["S_SURFACE_TEMPERATURE", "S_DIAMETER", "S_LUMINOSITY", "STELLAR_CLASSIFICATION", "STAR_ID", "STAR_NAME", "STAR_LIFETIME", "S_AGE", "STAR_CLUSTER_NAME", "S_GALAXY_NAME"]
+        },
+        "c_cond": {
+          "type": "string",
+          "display": "Condition",
+          "values": [">", "<", "=", "!="]
+        },
+        "c_val": {
+          "type": "string",
+          "display": "Value"
+        }
+        ,
+        "c_join": {
+          "type": "string",
+          "display": "Logic",
+          "values": [" ", "AND", "OR"]
+        }
+      }
+    }
+  }
+}

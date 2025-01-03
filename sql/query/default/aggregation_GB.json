@@ -1,0 +1,32 @@
+{
+  "id": "aggregation_GB",
+  "tab": "Nebula",
+  "name": "Nebula Luminosity Categorical Group Information",
+  "description": "Groups by by selected categorical columns, then performs specified aggregation on all groups (for nebula luminosities).<br>This query satisfies the <strong>2.1.7 aggregation with group by</strong> requirement.",
+  "parameters": {
+    "aggregation": {
+      "type": "string",
+      "display": "Aggregation",
+      "values": ["min", "max", "avg", "sum", "count"],
+      "meta": true
+    },
+    "group_by": {
+      "type": "set",
+      "display": "Group By Columns",
+      "componentName": "Group By",
+      "generate": {
+        "set_group_by": {
+          "element": "n.:gby",
+          "join": ", "
+        }
+      },
+      "componentParameters": {
+        "gby": {
+          "type": "string",
+          "display": "Group By",
+          "values": ["NEBULA_TYPE", "N_GALAXY_NAME"]
+        }
+      }
+    }
+  }
+}

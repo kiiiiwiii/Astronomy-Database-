@@ -1,0 +1,12 @@
+{
+  "id": "join",
+  "tab": "Halo",
+  "name": "Join",
+  "description": "Haloes that contain a Galaxy older than given number. <br>This query satisfies the <strong>2.1.6 join</strong> requirement.",
+  "parameters": {
+    "gt": {
+      "type": "number",
+      "display": "Billion Years"
+    }
+  }
+}

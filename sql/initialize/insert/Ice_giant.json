@@ -1,0 +1,25 @@
+{
+    "insert": "INSERT INTO Ice_giant (ice_name, ice_H2O_percentage) VALUES (:ice_name, :ice_H2O_percentage)",
+    "rows": [
+        [
+            "Neptune",
+            30.0
+        ],
+        [
+            "Uranus",
+            35.0
+        ],
+        [
+            "Gliese 436 b",
+            25.0
+        ],
+        [
+            "GJ 3470 b",
+            22.0
+        ],
+        [
+            "VMC 1061e", 
+            15.0
+        ]
+    ]
+}

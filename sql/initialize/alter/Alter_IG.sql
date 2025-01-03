@@ -1,0 +1,1 @@
+ALTER TABLE Ice_giant ADD FOREIGN KEY (ice_name) REFERENCES Planetary_body(pb_name) ON DELETE CASCADE;

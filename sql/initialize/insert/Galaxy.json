@@ -1,0 +1,50 @@
+{
+  "insert": "INSERT INTO Galaxy(galaxy_name, age, hubble_classification) VALUES (:galaxy_name, :age, :hubble_classification)",
+  "rows": [
+    [
+      "Andromeda Galaxy",
+      9.00,
+      "SAsb"
+    ],
+    [
+      "Milky Way",
+      13.60,
+      "SBbc"
+    ],
+    [
+      "Triangulum Galaxy",
+      12.00,
+      "SAcd"
+    ],
+    [
+      "Sombrero Galaxy",
+      13.00,
+      "SAsa"
+    ],
+    [
+      "Whirlpool Galaxy",
+      10.00,
+      "SAbc"
+    ],
+    [
+      "Messier 87", 
+      13.00, 
+      "E0"
+    ],
+    [
+      "TON 618 galaxy", 
+      12.20, 
+      "QSO"
+    ],
+    [
+      "NGC 1277", 
+      14.00, 
+      "E7"
+    ],
+    [
+      "Centaurus A", 
+      12.00, 
+      "S0"
+    ]
+  ]
+}

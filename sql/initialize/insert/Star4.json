@@ -1,0 +1,40 @@
+{
+  "insert": "INSERT INTO Star4(s_diameter, s_luminosity, s_surface_temperature) VALUES (:s_diameter, :s_luminosity, :s_surface_temperature)",
+  "rows": [
+    [
+      1,
+      1,
+      5500
+    ],
+    [
+      0.142,
+      0.0017,
+      3042
+    ],
+    [
+      0.13,
+      0.0000207,
+      1080.0
+    ],
+    [
+      0.2,
+      0.000306,
+      3200.0
+    ],
+    [
+      0.17,
+      0.000106,
+      1277.0
+    ],
+    [
+      0.491,
+      0.0108,
+      1440.0
+    ],
+    [
+      0.3,
+      0.00145,
+      1405.0
+    ]
+  ]
+}

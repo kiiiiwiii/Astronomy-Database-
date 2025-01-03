@@ -1,0 +1,33 @@
+{
+    "insert": "INSERT INTO Star2(s_surface_temperature, stellar_classification) VALUES (:s_surface_temperature, :stellar_classification)",
+    "rows": [
+        [
+            5500,
+            "G2V"
+        ],
+        [
+            3042,
+            "M5.5"
+        ],
+        [
+            1080.0,
+            "M6e"
+        ],
+        [
+            3200.0,
+            "M3.5"
+        ],
+        [
+            1277.0,
+            "M5.5e"
+        ],
+        [
+            1440.0,
+            "M2e"
+        ],
+        [
+            1405.0,
+            "M3"
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "planet_division",
+  "tab": "Planetary Body",
+  "name": "All Galaxies with All Chosen Types of Planets",
+  "description": "Display all star names whose system includes all selected planet types (Terrestrial, Ice Giant, & Gas Giant).<br>This query satisfies the <strong>2.1.10 division</strong> requirement.",
+  "parameters": {
+    "planet_type": {
+      "type": "set",
+      "display": "Planet Types",
+      "componentName": "Planet Type",
+      "generate": {
+        "set_types": {
+          "element": "SELECT p.star_name, p.pb_name, ':type' AS planet_type FROM Planetary_body p, TEMP_:type t WHERE p.pb_name = t.name",
+          "join": "\nUNION\n"
+        }
+      },
+      "componentParameters": {
+        "type": {
+          "type": "string",
+          "display": "Planet Type",
+          "values": ["Terrestrial_planet", "Ice_giant", "Gas_giant"]
+        }
+      }
+    }
+  }
+}

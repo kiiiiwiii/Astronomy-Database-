@@ -1,0 +1,31 @@
+{
+  "id": "nested",
+  "tab": "Nebula",
+  "name": "Nested Aggregation with Group By",
+  "description": "Advanced nested aggregation with group by with many user-defined fields.",
+  "parameters": {
+    "gby": {
+      "type": "string",
+      "display": "Group By",
+      "meta": true
+    },
+    "aggregation": {
+      "type": "string",
+      "display": "Aggregation for having condition",
+      "values": ["Per-Group Luminosity Aggregation (select)", "min", "max", "avg", "sum", "count"],
+      "meta": true
+    },
+    "condition": {
+      "type": "string",
+      "display": "Comparison Condition",
+      "values": ["=", "!=", "<", ">"],
+      "meta": true
+    },
+    "aggregate_nested": {
+      "type": "string",
+      "display": "Nested (global) conditional",
+      "values": ["Global Luminosity Aggregation (select)", "min", "max", "avg", "sum", "count"],
+      "meta": true
+    }
+  }  
+}

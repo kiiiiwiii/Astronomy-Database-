@@ -1,0 +1,71 @@
+{
+    "insert": "INSERT INTO Nebula (nebula_name, nebula_type, n_luminosity, n_galaxy_name) VALUES (:nebula_name, :nebula_type, :n_luminosity, :n_galaxy_name)",
+    "rows": [
+        [
+            "Sombrero Nebula",
+            "Spiral",
+            8.0e34,
+            "Milky Way"
+        ],
+        [
+            "NGC 5195", 
+            "Emission", 
+            3.3e33, 
+            "Whirlpool Galaxy"
+        ],
+        [
+            "Eagle Nebula",
+            "Emission",
+            6.5e34,
+            "Andromeda Galaxy"
+        ],
+        [
+            "Andromeda Nebula",
+            "Spiral",
+            1.2e35,
+            "Andromeda Galaxy"
+        ],
+        [
+            "Orion Nebula",
+            "Emission",
+            9.6e30, 
+            "Milky Way"
+        ],
+        [
+            "Horsehead Nebula",
+            "Dark",
+            4.2e30,
+            "Milky Way"
+        ],
+        [
+            "Helix Nebula",
+            "Planetary",
+            8.9e30,
+            "Milky Way"
+        ],
+        [
+            "Carina Nebula",
+            "Emission",
+            1.3e35,
+            "Milky Way"
+        ],
+        [
+            "Crab Nebula",
+            "Supernova Remnant",
+            4.8e34,
+            "Milky Way"
+        ],
+        [
+            "Butterfly Nebula",
+            "Planetary",
+            3.7e30,
+            "Milky Way"
+        ],
+        [
+            "Lagoon Nebula",
+            "Emission",
+            2.2e34,
+            "Milky Way"
+        ]
+    ]
+}

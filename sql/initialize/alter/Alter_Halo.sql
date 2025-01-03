@@ -1,0 +1,1 @@
+ALTER TABLE Halo ADD FOREIGN KEY (h_galaxy_name) REFERENCES Galaxy(galaxy_name);

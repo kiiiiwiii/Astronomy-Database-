@@ -1,0 +1,25 @@
+{
+    "insert": "INSERT INTO Star_cluster (sc_name, sc_type) VALUES (:sc_name, :sc_type)",
+    "rows": [
+        [
+            "Pleiades",
+            "Open"
+        ],
+        [
+            "Hyades",
+            "Open"
+        ],
+        [
+            "Messier 13",
+            "Globular"
+        ],
+        [
+            "Omega Centauri",
+            "Globular"
+        ],
+        [
+            "Carina Nebula",
+            "Open"
+        ]
+    ]
+}

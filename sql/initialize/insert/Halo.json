@@ -1,0 +1,30 @@
+{
+    "insert": "INSERT INTO Halo(halo_name, h_luminosity, h_galaxy_name) VALUES (:halo_name, :h_luminosity, :h_galaxy_name)",
+    "rows": [
+        [
+            "Andromeda Halo",
+            1.0e12,
+            "Andromeda Galaxy"
+        ],
+        [
+            "Milky Way Halo",
+            1.0e9,
+            "Milky Way"
+        ],
+        [
+            "Triangulum Halo",
+            1.0e10,
+            "Triangulum Galaxy"
+        ],
+        [
+            "Sombrero Halo",
+            1.0e11,
+            "Sombrero Galaxy"
+        ],
+        [
+            "Whirlpool Halo",
+            1.0e8,
+            "Whirlpool Galaxy"
+        ]
+    ]
+}

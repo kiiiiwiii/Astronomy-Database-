@@ -1,0 +1,75 @@
+{
+  "insert": "INSERT INTO Star3(star_ID, star_name, star_lifetime, s_age, star_cluster_name, s_galaxy_name, s_diameter, s_luminosity) VALUES (:star_ID, :star_name, :star_lifetime, :s_age, :star_cluster_name, :s_galaxy_name, :s_diameter, :s_luminosity)",
+  "rows": [
+    [
+      1,
+      "Sol",
+      10,
+      4.6,
+      null,
+      "Milky Way",
+      1,
+      1
+    ],
+    [
+      3,
+      "Proxima Centauri",
+      4000,
+      4.85,
+      null,
+      "Milky Way",
+      0.142,
+      0.0017
+    ],
+    [
+      359,
+      "CN Leonis",
+      3.79,
+      0.356,
+      "Pleiades",
+      "Milky Way",
+      0.13,
+      0.0000207
+    ],
+    [
+      154,
+      "V1216 Sagittarii",
+      1.0,
+      0.8,
+      "Pleiades",
+      "Milky Way",
+      0.2,
+      0.000306
+    ],
+    [
+      248,
+      "Giclas",
+      2.9,
+      0.7,
+      "Pleiades",
+      "Milky Way",
+      0.17,
+      0.000106
+    ],
+    [
+      9352,
+      "Henry Draper",
+      0.397,
+      0.01,
+      "Pleiades",
+      "Milky Way",
+      0.491,
+      0.0108
+    ],
+    [
+      1061,
+      "Vyssotsky McCormick",
+      0.693,
+      0.4,
+      "Pleiades",
+      "Milky Way",
+      0.3,
+      0.00145
+    ]
+  ]
+}

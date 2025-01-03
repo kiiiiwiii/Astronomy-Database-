@@ -1,0 +1,35 @@
+{
+    "insert": "INSERT INTO Gas_giant (gas_name, atmospheric_hydrogen_percentage, atmospheric_helium_percentage) VALUES (:gas_name, :atmospheric_hydrogen_percentage, :atmospheric_helium_percentage)",
+    "rows": [
+        [
+            "Jupiter",
+            90.0,
+            10.0
+        ],
+        [
+            "Saturn",
+            96.3,
+            3.3
+        ],
+        [
+            "Uranus",
+            83.0,
+            15.0
+        ],
+        [
+            "Neptune",
+            80.0,
+            19.0
+        ],
+        [
+            "HD 189733 b",
+            85.0,
+            14.0
+        ],
+        [
+            "VMC 1061e", 
+            63.0,
+            12.0
+        ]
+    ]
+}

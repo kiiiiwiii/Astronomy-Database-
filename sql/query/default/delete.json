@@ -1,0 +1,14 @@
+{
+  "id": "delete",
+  "tab": "Planetary Body",
+  "name": "Delete planetary body",
+  "description": "Deletes a planetary body and its related moons from the database.",
+  "redirect": "deletePB",
+  "updateTable": ["Planetary Body", "Moon"],
+  "parameters": {
+    "delete_pb": {
+      "type": "string",
+      "display": "Planetary Body Name"
+    }
+  }
+}

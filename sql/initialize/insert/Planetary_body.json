@@ -1,0 +1,136 @@
+{
+    "insert": "INSERT INTO Planetary_body (pb_name, pb_surface_temperature, pb_mass, pb_diameter, galaxy_name, star_name) VALUES (:pb_name, :pb_surface_temperature, :pb_mass, :pb_diameter, :galaxy_name, :star_name)",
+    "rows": [
+        [
+            "Earth",
+            15.0,
+            5.972e24,
+            12742.0,
+            "Milky Way",
+            "Sol"
+        ],
+        [
+            "Mars",
+            -63.0,
+            0.641e24,
+            6779.0,
+            "Milky Way",
+            "Sol"
+        ],
+        [
+            "Jupiter",
+            -108.0,
+            1.898e27,
+            139820.0,
+            "Milky Way",
+            "Sol"
+        ],
+        [
+            "Saturn",
+            -139.0,
+            5.683e26,
+            116460.0,
+            "Milky Way",
+            "Sol"
+        ],
+        [
+            "Proxima Centauri b",
+            30.0,
+            1.17e24,
+            12742,
+            "Milky Way",
+            "Proxima Centauri"
+        ],
+        [
+            "Proxima Centauri c", 
+            40, 
+            4.18e25, 
+            25000, 
+            "Milky Way", 
+            "Proxima Centauri"
+        ],
+        [
+            "Proxima Centauri d", 
+            360, 
+            1.56e24, 
+            8000, 
+            "Milky Way", 
+            "Proxima Centauri"
+        ],
+        [
+            "Uranus", 
+            76.0, 
+            8.681e25, 
+            50724.0, 
+            "Milky Way",
+            "Sol"
+        ],
+        [
+            "Neptune", 
+            72.0, 
+            1.024e26, 
+            49244.0, 
+            "Milky Way",
+            "Sol"
+        ],
+        [
+            "HD 189733 b", 
+            1200.0, 
+            1.14e27, 
+            138500.0, 
+            "Milky Way",
+            null
+        ],
+        [
+            "Gliese 436 b", 
+            712.0, 
+            2.78e26, 
+            50200.0, 
+            "Milky Way",
+            null
+        ],
+        [
+            "GJ 3470 b", 
+            650.0, 
+            1.97e26, 
+            37800.0, 
+            "Milky Way",
+            null
+        ],
+        [
+            "Venus", 
+            737.0, 
+            4.867e24, 
+            12104.0, 
+            "Milky Way",
+            "Sol"
+        ],
+        [
+            "Mercury", 
+            440.0, 
+            3.301e23, 
+            4879.0, 
+            "Milky Way",
+            "Sol"
+        ],
+        [
+            "VMC 1061b", 
+            320, 
+            1.2e25, 
+            22000, 
+            "Milky Way", 
+            "Vyssotsky McCormick"
+        ],
+        [
+            "VMC 1061e", 
+            -120, 
+            1.6e26, 
+            143000, 
+            "Milky Way", 
+            "Vyssotsky McCormick"
+        ]
+    ]
+}
+
+
+

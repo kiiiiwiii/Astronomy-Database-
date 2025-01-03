@@ -1,0 +1,1 @@
+ALTER TABLE Moon ADD FOREIGN KEY (planetary_body_name) REFERENCES Planetary_body(pb_name) ON DELETE CASCADE;

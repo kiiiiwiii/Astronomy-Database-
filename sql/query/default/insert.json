@@ -1,0 +1,22 @@
+{
+  "id": "insert",
+  "tab": "Halo", 
+  "name": "Insert Halo",
+  "description": "Insert new tuples into Halo table.<br>Make sure your halo name is unique and the galaxy name is valid.",
+  "redirect" : "insertHalo",
+  "updateTable": "Halo",
+  "parameters": {
+    "halo_name": {
+      "type": "string",
+      "display": "Halo Name"
+    },
+    "h_luminosity": {
+      "type": "string",
+      "display": "Halo Luminosity"
+    },
+    "h_galaxy_name": {
+      "type": "string",
+      "display": "Galaxy Name"
+    }
+  }
+}

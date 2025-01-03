@@ -1,0 +1,17 @@
+{
+  "id": "test3",
+  "tab": "Home",
+  "name": "Insert Test",
+  "description": "Testing Testing 123",
+  "parameters": {
+    "name": {
+      "type": "string",
+      "display": "Cluster Name"
+    },
+    "cluster_type": {
+      "type": "string",
+      "display": "Cluster Type"
+    }
+  },
+  "redirect": "test3Function"
+}

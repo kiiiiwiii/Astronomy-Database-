@@ -1,0 +1,40 @@
+{
+    "insert": "INSERT INTO Moon (planetary_body_name, moon_name, m_surface_temperature, mass, diameter) VALUES (:planetary_body_name, :moon_name, :m_surface_temperature, :mass, :diameter)",
+    "rows": [
+        [
+            "Earth",
+            "Moon",
+            -53.0,
+            7.35e22,
+            3474.0
+        ],
+        [
+            "Jupiter",
+            "Europa",
+            -160.0,
+            4.80e22,
+            3122.0
+        ],
+        [
+            "Jupiter",
+            "Ganymede",
+            -160.0,
+            1.48e23,
+            5268.0
+        ],
+        [
+            "Saturn",
+            "Titan",
+            -179.0,
+            1.35e23,
+            5151.0
+        ],
+        [
+            "Mars",
+            "Phobos",
+            -4.0,
+            1.08e16,
+            22.4
+        ]
+    ]
+}

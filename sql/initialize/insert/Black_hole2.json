@@ -1,0 +1,25 @@
+{
+    "insert": "INSERT INTO Black_hole2 (bh_mass, event_horizon_radius) VALUES (:bh_mass, :event_horizon_radius)",
+    "rows": [
+        [
+            4.3e6,
+            12.7e6
+        ],
+        [
+            6.5e9,
+            19.5e9
+        ],
+        [
+            6.6e10,
+            195.0e9
+        ],
+        [
+            1.7e9,
+            5.1e9
+        ],
+        [
+            5.5e7,
+            165.0e6
+        ]
+    ]
+}

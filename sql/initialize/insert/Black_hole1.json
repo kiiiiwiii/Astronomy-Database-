@@ -1,0 +1,50 @@
+{
+    "insert": "INSERT INTO Black_hole1 (bh_name, angular_momentum, electric_charge, is_quasar, bh_galaxy_name, is_center, bh_mass) VALUES (:bh_name, :angular_momentum, :electric_charge, :is_quasar, :bh_galaxy_name, :is_center, :bh_mass)",
+    "rows": [
+        [
+            "Sagittarius A*",
+            0.99,
+            0.0,
+            "N",
+            "Milky Way",
+            "Y",
+            4.3e6
+        ],
+        [
+            "M87*",
+            0.9,
+            0.0,
+            "Y",
+            "Messier 87",
+            "Y",
+            6.5e9
+        ],
+        [
+            "TON 618",
+            0.8,
+            0.0,
+            "Y",
+            "TON 618 galaxy",
+            "Y",
+            6.6e10
+        ],
+        [
+            "NGC 1277 Black Hole",
+            0.92,
+            0.0,
+            "N",
+            "NGC 1277",
+            "Y",
+            1.7e9
+        ],
+        [
+            "Centaurus A Black Hole",
+            0.98,
+            0.0,
+            "N",
+            "Centaurus A",
+            "Y",
+            5.5e7
+        ]
+    ]
+}

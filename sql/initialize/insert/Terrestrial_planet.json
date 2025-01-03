@@ -1,0 +1,53 @@
+{
+    "insert": "INSERT INTO Terrestrial_planet (tp_name, habitability, has_life, primary_solid_component) VALUES (:tp_name, :habitability, :has_life, :primary_solid_component)",
+    "rows": [
+        [
+            "Earth",
+            0.9,
+            "Y",
+            "Silicate Rock"
+        ],
+        [
+            "Mars",
+            0.3,
+            "N",
+            "Iron Oxide"
+        ],
+        [
+            "Venus",
+            0.1,
+            "N",
+            "Basalt"
+        ],
+        [
+            "Mercury",
+            0.0,
+            "N",
+            "Silicate Rock"
+        ],
+        [
+            "Proxima Centauri b",
+            0.6,
+            "N",
+            "Silicate Rock"
+        ],
+        [
+            "Proxima Centauri c",
+            0.1,
+            "N",
+            "Silicate Rock"
+        ],
+        [
+            "Proxima Centauri d",
+            0.05,
+            "N",
+            "Silicate Rock"
+        ],
+        [
+            "VMC 1061b", 
+            0, 
+            "N",
+            "Iron"
+        ]
+    ]
+}

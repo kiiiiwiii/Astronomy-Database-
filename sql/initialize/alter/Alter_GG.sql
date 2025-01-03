@@ -1,0 +1,1 @@
+ALTER TABLE Gas_giant ADD FOREIGN KEY (gas_name) REFERENCES Planetary_body(pb_name) ON DELETE CASCADE;
